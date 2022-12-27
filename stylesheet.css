@@ -1,0 +1,123 @@
+@font-face {
+    font-family: bladee;
+    src: url(duke_plus/DUKEPLUS.TTF)
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: family;
+    src: url(family-font/Family-nR2ag.otf);
+}
+
+h1 {
+    text-align: center;
+    font-family: bladee;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+nav {
+    list-style-type: none;
+    position: absolute;
+    left: 50%;
+}
+
+a {
+    background-color: rgb(254, 170, 250);
+    padding: 8px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-family: oswald;
+    transition: 500ms;
+}
+
+a:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aquamarine;
+    color: rgb(254, 170, 250);
+}
+
+.active { 
+    background-color: aquamarine;
+}
+
+#welcome {
+    margin-left: 30%;
+    font-family: family;
+    color: pink;
+    font-size: x-large;
+}
+
+#sgp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 800ms;
+    box-shadow: 10px 10px 10px pink;
+}
+
+#clickme {
+    margin-left: 50%;
+}
+
+#sgp:hover {
+    transform: rotate(200deg);
+    width: 250px;
+    box-shadow: 10px 10px 10px aquamarine;
+}
+
+.chuucopy {
+    color: pink;
+    font-family: family;
+    box-shadow: 20px 20px 20px;
+}
+
+.chuuknife {
+    box-shadow: 8px 8px 8px red;
+}
+
+.chuuknife:hover {
+    box-shadow: 100px 100px 100px red;
+}
+
+.CEO {
+    font-family: bladee;
+    color: red;
+    font-size: xx-large;
+}
+
+.cricket {
+    position: absolute;
+    left: 30%;
+    margin-top: 150px;
+}
+.loonaspeech {
+    text-align: center;
+    font-family: family;
+    color: pink;
+    text-shadow: 2px 2px 2px black;
+}
+
+.chuugun {
+    position: absolute;
+    left: 20%;
+    top: 1000px;
+    box-shadow: 20px 20px 20px pink;
+    transition: 500ms;
+}
+
+.chuugun:hover {
+    box-shadow: 22px 22px 22px rgb(247, 132, 152);
+    transform: rotate(15deg);
+}
+
